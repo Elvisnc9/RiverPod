@@ -28,7 +28,7 @@ class _CartScreenState extends ConsumerState<CartScreen> {
             Column(
               children: cartProduct.map((product){
                 return Container(
-                  padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 5),
+                  padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 5 ),
                   child: Row(
                     children: [
                       Image.asset(
