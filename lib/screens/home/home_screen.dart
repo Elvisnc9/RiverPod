@@ -8,7 +8,7 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final allProducts = ref.watch(productsProvider);
+    final allProducts = ref.watch(products as ProviderListenable);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Garage Sale Products'),
